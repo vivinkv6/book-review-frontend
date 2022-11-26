@@ -1,0 +1,15 @@
+
+
+.title{
+    font-weight: 700;
+}
+
+
+.button:active{
+    border: 3px solid black; 
+    background-image: linear-gradient(to top left,rgb(122, 122, 122),rgb(207, 207, 207));
+    border-radius: 10px;
+}
+
+
+
