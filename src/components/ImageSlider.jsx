@@ -29,7 +29,7 @@ return(
       className="col-md  mt-0"
       src={value.attributes.img}
       alt="First slide"
-      style={{height:"500px",width:'100%',display:'flex'}}
+      style={{height:"700px",width:'100%',display:'flex'}}
     />
     </div>
   </Carousel.Item>

@@ -27,6 +27,7 @@ function Cards({data}) {
            )
          })}
       </div>
+     <Link to="/post"> <i className="bi bi-plus-circle-fill  text-light" style={{fontSize:'50px',position:'fixed',bottom:'0px',right:'5px'}}></i> </Link>
     </div>
     </>
   );
