@@ -36,15 +36,17 @@ function PostReview() {
               <Form.Control type="file" style={{width:'210px'}} required placeholder="Password" />
             </Form.Group>
           </div>
-          <Form.Label>Book Overview</Form.Label>
-          <div className="col-md-4">
          
+          <div className="col-md-4">
+          <Form.Label>Book Overview</Form.Label>
+          <br />
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
           <Button variant="primary" type="submit" className="mt-3 mb-3">
             Submit
           </Button>
         </Form>
+        <h1 className="mt-5 text-center">***Update Soon***</h1>
       </div>
     </div>
   );

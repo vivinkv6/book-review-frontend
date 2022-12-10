@@ -41,9 +41,6 @@ function LanguagePage({language,data}) {
             <Card.Img variant="top" style={{height:"200px"}} src={value.attributes.img} />
             <Card.Body className="bg bg-light text-secondary">
               <Card.Title>{value.attributes.title}</Card.Title>
-              <Card.Text>
-              Rs.{value.attributes.price}
-              </Card.Text>
               <Link to={`${value.id}`} style={{textDecoration:'none'}}>
               <Button variant="primary">Details</Button>
               </Link>

@@ -11,7 +11,7 @@ function Cards({data}) {
             {data.map((value)=>{
                 
            return(
-             <div className="col-md-4 " key={value.id}>
+             <div className="col-md-3 " key={value.id}>
               
           <Card className="bg bg-light" style={{ width: "13rem",marginTop:'20px'}}>
             <Card.Img variant="top" style={{height:"200px"}} src={value.attributes.img} />
