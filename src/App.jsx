@@ -7,6 +7,7 @@ import SingleItemPage from './pages/SingleItemPage';
 import SearchPage from './pages/SearchPage';
 import LanguagePage from './pages/LanguagePage';
 import PostReview from './pages/PostReview';
+import NotFound from './pages/NotFound';
 
 function App() {
 
@@ -29,8 +30,9 @@ function App() {
           <Route path='/hindi' element={<LanguagePage language="Hindi" data={data}/>}/> 
           <Route path='hindi/:id' element={<SingleItemPage data={data} error={error} loading={loading}/>}/>
           <Route path='post' element={<PostReview/>}/>
+          <Route path='*' element={<NotFound/>}/>
        </Routes>
-      
+       
     </BrowserRouter>
       
     </div>

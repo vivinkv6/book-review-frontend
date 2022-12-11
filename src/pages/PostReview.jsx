@@ -5,6 +5,7 @@ import Form from "react-bootstrap/Form";
 function PostReview() {
   return (
     <div className="container">
+       <h3 className="alert alert-danger text-center">***Update Soon***</h3>
       <div className="row">
         <Form
           style={{
@@ -14,6 +15,7 @@ function PostReview() {
             alignItems: "center",
             border: "3px solid black",
           }}
+          action='*'
         >
           <h1>
             <u>Book Details</u>
@@ -46,7 +48,7 @@ function PostReview() {
             Submit
           </Button>
         </Form>
-        <h1 className="mt-5 text-center">***Update Soon***</h1>
+       
       </div>
     </div>
   );
