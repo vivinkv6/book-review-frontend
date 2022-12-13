@@ -19,14 +19,15 @@ function SingleItemPage({ data, error, loading }) {
 
       {error && <Alert variant="danger">Server Issue</Alert>}
 
-      {data.filter((value)=>Number(value.id) === Number(id)).map((value)=>{
-        return(
-          <>
-          <SingleCard value={value}/>
-          </>
-        )
-      })}
-
+      {data
+        .filter((value) => Number(value.id) === Number(id))
+        .map((value) => {
+          return (
+            <>
+              <SingleCard value={value} />
+            </>
+          );
+        })}
     </>
   );
 }

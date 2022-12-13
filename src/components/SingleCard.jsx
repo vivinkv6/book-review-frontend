@@ -18,8 +18,6 @@ function SingleCard({ value }) {
         <i>{value.attributes.description}</i>
       </p>
       <hr />
-
-      
     </div>
   );
 }
