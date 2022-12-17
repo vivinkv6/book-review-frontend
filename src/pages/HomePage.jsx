@@ -7,7 +7,7 @@ function HomePage({ data, error, loading }) {
   console.log(data);
   return (
     <>
-      <ImageSlider data={data} error={error} loading={loading} />
+      {/*<ImageSlider data={data} error={error} loading={loading} /> */}
       <Cards data={data} />
     </>
   );
