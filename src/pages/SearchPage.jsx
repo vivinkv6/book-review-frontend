@@ -20,7 +20,7 @@ function SearchPage() {
   return (
     <>
       <div className="container">
-        <h1 align="center">Book Name</h1>
+        <h1 align="center" className="text-secondary fw-bold">Book Name</h1>
         <form
           onSubmit={onsubmition}
           style={{
