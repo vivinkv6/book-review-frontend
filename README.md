@@ -47,13 +47,14 @@ cd backend
 npm run develop
 
 ```
-<h1>FrontEnd</h1>
-<h2>Web App</h2>
-<h3>Home Page</h3>
-<img src="C:\Users\Vivek Kv\OneDrive\Pictures\Screenshots\Screenshot (65).png">
-<h3>Language Page</h3>
-<img src="C:\Users\Vivek Kv\OneDrive\Pictures\Screenshots\Screenshot (67).png">
-<h3>Search Page</h3>
-<img src="C:\Users\Vivek Kv\OneDrive\Pictures\Screenshots\Screenshot (68).png">
-<h3>SingleItem Page</h3>
-<img src="C:\Users\Vivek Kv\OneDrive\Pictures\Screenshots\Screenshot (69).png">
+# FrontEnd
+
+## Pages
+
+### Home Page
+
+### Language Page
+
+### Search Page
+
+### SingleItem Page
