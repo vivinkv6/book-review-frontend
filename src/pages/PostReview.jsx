@@ -18,11 +18,11 @@ function PostReview() {
           action="*"
         >
           <h1>
-            <u>Book Details</u>
+            <u className="text-secondary">Book Details</u>
           </h1>
           <div className="col-md-4">
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Book Name</Form.Label>
+              <Form.Label className="text-secondary">Book Name</Form.Label>
               <Form.Control
                 type="text"
                 required
@@ -32,7 +32,7 @@ function PostReview() {
           </div>
           <div className="col-md-4">
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Author Name</Form.Label>
+              <Form.Label className="text-secondary">Author Name</Form.Label>
               <Form.Control
                 type="text"
                 required
@@ -42,7 +42,7 @@ function PostReview() {
           </div>
           <div className="col-md-4">
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Book Image</Form.Label>
+              <Form.Label className="text-secondary">Book Image</Form.Label>
               <Form.Control
                 type="file"
                 style={{ width: "210px" }}
@@ -53,7 +53,7 @@ function PostReview() {
           </div>
 
           <div className="col-md-4">
-            <Form.Label>Book Overview</Form.Label>
+            <Form.Label className="text-secondary">Book Overview</Form.Label>
             <br />
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
